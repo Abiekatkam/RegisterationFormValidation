@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Intro component with sign up form | by Abie Katkam</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="titleside">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="formside">
+        <div class="header">
+          <h2>Try it free 7 days</h2>
+          <p>then $20/mo. thereafter</p>
+        </div>
+
+        <form action="#" class="form" id="form">
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            class="inputdata"
+            value="Jonathan"
+          />
+          <p class="errormessage" id="errorFirstName"></p>
+
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            class="inputdata"
+            placeholder="Last Name"
+          />
+          <p class="errormessage" id="errorLastName"></p>
+
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="inputdata"
+            placeholder="Email Address"
+          />
+          <p class="errormessage" id="errorEmail"></p>
+
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="inputdata"
+            placeholder="Password"
+          />
+          <p class="errormessage" id="errorPassword"></p>
+
+          <input
+            type="submit"
+            class="inputsubmit"
+            id="submitForm"
+            value="CLAIM YOUR FREE TRIAL"
+          />
+
+          <small class="text"
+            >By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </small>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Abiekatkam">Abie Katkam</a>.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
